@@ -1,6 +1,6 @@
-# Wordpress plugin fork 
+# Twitter wordpress plugin fork 
 
-this form abstracts the plugin loader functionality to create a boilerplate for rapidly bootstrapping wordpress plugins. 
+this form abstracts the plugin loader functionality from twitter's wordpress plugin to create a boilerplate for rapid bootstrapping. 
 
 ## License
 Copyright 2015- Twitter, Inc.
