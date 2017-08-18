@@ -84,8 +84,6 @@ class PluginLoader
 			add_action( 'wp_head', array( $classname, 'wpHead' ), 1, 0 );
 		}
 
-		// shortcodes
-		static::registerShortcodeHandlers();
 	}
 
 	/**
@@ -109,7 +107,7 @@ class PluginLoader
 	 */
 	public static function getPluginMainFile()
 	{
-		return static::getPluginDirectory() . 'pluginphp';
+		return static::getPluginDirectory() . 'plugin.php';
 	}
 
 	/**
