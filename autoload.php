@@ -33,9 +33,9 @@ THE SOFTWARE.
  */
 spl_autoload_register(function ($class) {
     // project-specific namespace prefix
-    $prefix = 'Twitter\\';
+    $prefix = 'Plugin\\';
     // base directory for the namespace prefix
-    $base_dir = defined('TWITTER_PLUGIN_DIR') ? TWITTER_PLUGIN_DIR : __DIR__ . '/src/Twitter/';
+    $base_dir = defined('PLUGIN_DIR') ? TWITTER_PLUGIN_DIR : __DIR__ . '/src/Plugin/';
     // does the class use the namespace prefix?
     $len = strlen($prefix);
     if (0 !== strncmp($prefix, $class, $len)) {
